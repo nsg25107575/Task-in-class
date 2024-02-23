@@ -11,9 +11,17 @@
     grid-row: 2;
     font-size: 25px;
     border: 1px solid gray;
+    text-align: center;
 }
 
 .red_box_text span {
-    margin-left: 20px;
     color: rgb(239, 15, 15);
+}
+
+.red_box_button {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid gray;
 }
