@@ -1,0 +1,19 @@
+.red_box {
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background: rgb(236, 215, 215);
+}
+
+.red_box_text {
+    grid-column: 3;
+    grid-row: 2;
+    font-size: 25px;
+    border: 1px solid gray;
+}
+
+.red_box_text span {
+    margin-left: 20px;
+    color: rgb(239, 15, 15);
+}
